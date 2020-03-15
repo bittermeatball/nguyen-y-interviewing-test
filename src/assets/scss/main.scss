@@ -1,0 +1,57 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+// Bootstrap Vue customization
+// navbar
+.navbar {
+    box-shadow: rgba(65, 65, 65, 0.3) 1px 3px 6px;
+    background-image: linear-gradient(90deg,rgb(37, 37, 155) , rgb(112, 112, 216));
+}
+.navbar-brand {
+    color: #ffffff !important;
+}
+// card
+.card {
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: rgba(65, 65, 65, 0.2) 1px 3px 10px;
+}
+.card-header {
+    border: none;
+    box-shadow: rgba(65, 65, 65, 0.1) 1px 3px 5px;
+    background-image: linear-gradient(90deg,rgb(92, 92, 245) , rgb(165, 165, 252));
+    color: #ffffff !important;
+    border-radius: 0 !important;
+    h6 {
+        color: #ffffff !important;
+    }
+}
+.card-body {
+    border: none;
+    border-radius: 0 !important;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+// modal
+.modal-content {
+    border: none;
+    border-radius: 0;
+}
+.modal-header {
+    border: none;
+    border-radius: 0;
+}
+.modal-body {
+    border: none;
+    border-radius: 0;
+}
+.modal-footer {
+    border: none;
+    border-radius: 0;
+}
+// pagination
+.page-item.active .page-link {
+    background-image: linear-gradient(90deg,rgb(92, 92, 245) , rgb(165, 165, 252));
+    border: none;
+    transform: scale(1.03);
+}
